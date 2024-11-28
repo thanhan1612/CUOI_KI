@@ -1,0 +1,13 @@
+div.navbar {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+
+div.generalinfo {
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    align-items: center;
+}
