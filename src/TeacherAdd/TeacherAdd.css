@@ -1,0 +1,21 @@
+div.container22 {
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    min-height: 100vh;
+    top: 0;
+    left:0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.content {
+    width: 70vw;
+    min-height: 70vh;
+    background-color: white;
+    padding: 30px 28px;
+}
+form {
+    color:white
+}

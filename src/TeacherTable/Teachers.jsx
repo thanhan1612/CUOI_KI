@@ -11,6 +11,7 @@ const Teachers =() => {
             const result = await response.json();
             console.group(result.teachersusers);
             setData(result.teachersusers);
+            console.log(data);
            
            ;
           } catch (error) {
@@ -23,6 +24,7 @@ const Teachers =() => {
     return (
         <div className="teacherstable">
             <table>
+                <thead>
                 <tr>
                     <th>
                         Mã
@@ -49,6 +51,7 @@ const Teachers =() => {
                         Hành động
                     </th>
                 </tr>
+                </thead>
                 <tbody>
                     {
                         data.map((teachers) => (
